@@ -13,7 +13,7 @@
 
 .text-home h1{
     color: var(--white);
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 40px;
 }
@@ -32,7 +32,7 @@
     margin-right: 20px;
     transition: 0.2s ease;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .buttons-home button:hover{
@@ -47,7 +47,7 @@
     color: var(--purpleDetails);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1182px) {
 
     .container-home{
         margin-top: 60px;
@@ -66,10 +66,7 @@
         display: flex;
         justify-content: center;
     }
-    
-    .buttons-home button {
-        font-size: 3vw;
-    }
+
 
     .img-home{
         display: none;
